@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int sum(int i, int j=0){
+    return i+j;
+}
+int main(){
+    cout << sum(2);
+    return 0;
+}
