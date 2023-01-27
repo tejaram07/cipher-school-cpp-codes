@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int maxi(int i1, int i2){
+    if(i1>i2) return i1;
+    return i2;
+}
+
+int maxi3(int i1, int i2, int i3){
+    if(i1>i2){
+        if(i1>i3) return i1;
+        return i3;
+    }
+    else{
+        if(i2>i3) return i2;
+        return i3;
+    }
+}
+
+int main(){
+    cout << maxi(2,5);
+    cout << maxi3(2,5,3);
+    return 0;
+}
