@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int sum(int i, int j){
+    return i+j;
+}
+int main(){
+    int i,j;
+    cin >> i >> j;
+    cout << "the sum of i & j is : " << sum(i,j);
+    return 0;
+}
